@@ -1,0 +1,8 @@
+dependencies:
+  idf: ">=5.1"
+  # OV2640 / AI-Thinker camera driver.
+  # PlatformIO-compatible: this component builds under framework=espidf too.
+  espressif/esp32-camera: "^2.1.0"
+  # TensorFlow Lite Micro + esp-nn (int8 optimised kernels).
+  # ESP-IDF ONLY - this is why framework=espidf is required.
+  espressif/esp-tflite-micro: "^1.3.5"
